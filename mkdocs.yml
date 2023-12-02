@@ -1,0 +1,32 @@
+site_name: VitaGuide
+site_url: https://example.com/
+repo_url: https://github.com/pxdl/VitaGuide
+repo_name: pxdl/VitaGuide
+theme:
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - toc.integrate
+    - navigation.top
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+# nav:
+#   - Home: index.md
+#   - About: about.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
