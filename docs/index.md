@@ -1,15 +1,14 @@
 # Welcome to the VitaGuide docs!
 
 !!! warning "This guide is archived"
-
     **This guide is outdated and is kept here for preservation purposes only.** The media links (images, tool downloads, patches) are all dead, the torrents have no seeders left, and newer methods are much easier and better.
 
-    **For PS Vita hacking**, follow the up-to-date guide at [vita.hacks.guide](https://vita.hacks.guide/) — it covers everything from stock to HENkaku Enso CFW and works on all firmwares from 1.03 to 3.74.
+    **For PS Vita hacking**, follow the up-to-date guide at [vita.hacks.guide](https://vita.hacks.guide/) -- it covers everything from stock to HENkaku Enso CFW and works on all firmwares from 1.03 to 3.74.
 
     **For the Persona 4 Golden undub specifically**, check out:
 
-    - [Persona 4 Golden Undub (Proper) on GBAtemp](https://gbatemp.net/threads/release-persona-4-golden-undub-proper.465030/) — a proper undub release that fixes stray English voices and subtitle issues
-    - [P4G Patches on GitHub](https://github.com/zarroboogs/p4g-patches) — maintained patch collection for P4G on Vita
+    - [Persona 4 Golden Undub (Proper) on GBAtemp](https://gbatemp.net/threads/release-persona-4-golden-undub-proper.465030/) -- a proper undub release that fixes stray English voices and subtitle issues
+    - [P4G Patches on GitHub](https://github.com/zarroboogs/p4g-patches) -- maintained patch collection for P4G on Vita
     - The modern method uses rePatch and pre-built VPKs, making the process much simpler than the manual CPK repacking described below
 
 ---
