@@ -1,12 +1,20 @@
 # Welcome to the VitaGuide docs!
 
-This page will guide you on how you to make an undubbed version of your own **Persona 4 GOLDEN** game. This guide covers both the **physical** and **digital** versions of the game.
+!!! warning "This guide is archived"
 
-**The links to the tools used for unpacking and repacking are down and are going to be updated soon. In the meantime, you can use the xdelta patch method.**
+    **This guide is outdated and is kept here for preservation purposes only.** The media links (images, tool downloads, patches) are all dead, the torrents have no seeders left, and newer methods are much easier and better.
 
-The cutscene undub is **complete**.
+    **For PS Vita hacking**, follow the up-to-date guide at [vita.hacks.guide](https://vita.hacks.guide/) — it covers everything from stock to HENkaku Enso CFW and works on all firmwares from 1.03 to 3.74.
 
-_The steps in this guide were written so that you can also learn how to mod other games._
+    **For the Persona 4 Golden undub specifically**, check out:
+
+    - [Persona 4 Golden Undub (Proper) on GBAtemp](https://gbatemp.net/threads/release-persona-4-golden-undub-proper.465030/) — a proper undub release that fixes stray English voices and subtitle issues
+    - [P4G Patches on GitHub](https://github.com/zarroboogs/p4g-patches) — maintained patch collection for P4G on Vita
+    - The modern method uses rePatch and pre-built VPKs, making the process much simpler than the manual CPK repacking described below
+
+---
+
+*The original guide below was written in 2016 and guided you on how to make an undubbed version of your own **Persona 4 GOLDEN** game, covering both the **physical** and **digital** versions. The steps were written so that you could also learn how to mod other games.*
 
 ## Installing Henkaku
 
