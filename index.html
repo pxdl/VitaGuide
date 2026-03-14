@@ -1,0 +1,856 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pxdl.github.io/VitaGuide/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>VitaGuide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-the-vitaguide-docs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="VitaGuide" class="md-header__button md-logo" aria-label="VitaGuide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            VitaGuide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Welcome to the VitaGuide docs!
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/pxdl/VitaGuide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pxdl/VitaGuide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="VitaGuide" class="md-nav__button md-logo" aria-label="VitaGuide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    VitaGuide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/pxdl/VitaGuide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pxdl/VitaGuide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the VitaGuide docs!
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the VitaGuide docs!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installing-henkaku" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing Henkaku
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-vitashell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing VitaShell
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-your-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dumping your game
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patch-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Patch Method
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Patch Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#american-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        American version
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#european-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        European version
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual method
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Manual method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unpacking-the-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unpacking the files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replacing-the-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Replacing the files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repacking-the-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repacking the files
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Repacking the files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uncompressed-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uncompressed method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compressed-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compressed method
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copying-back" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copying back
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cutscenes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cutscenes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cutscenes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subbed-japanese-cutscenes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subbed Japanese Cutscenes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#done" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Done
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Help
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Credits
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="welcome-to-the-vitaguide-docs">Welcome to the VitaGuide docs!<a class="headerlink" href="#welcome-to-the-vitaguide-docs" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">This guide is archived</p>
+<p><strong>This guide is outdated and is kept here for preservation purposes only.</strong> The media links (images, tool downloads, patches) are all dead, the torrents have no seeders left, and newer methods are much easier and better.</p>
+<p><strong>For PS Vita hacking</strong>, follow the up-to-date guide at <a href="https://vita.hacks.guide/">vita.hacks.guide</a> -- it covers everything from stock to HENkaku Enso CFW and works on all firmwares from 1.03 to 3.74.</p>
+<p><strong>For the Persona 4 Golden undub specifically</strong>, check out:</p>
+<ul>
+<li><a href="https://gbatemp.net/threads/release-persona-4-golden-undub-proper.465030/">Persona 4 Golden Undub (Proper) on GBAtemp</a> -- a proper undub release that fixes stray English voices and subtitle issues</li>
+<li><a href="https://github.com/zarroboogs/p4g-patches">P4G Patches on GitHub</a> -- maintained patch collection for P4G on Vita</li>
+<li>The modern method uses rePatch and pre-built VPKs, making the process much simpler than the manual CPK repacking described below</li>
+</ul>
+</div>
+<hr />
+<p><em>The original guide below was written in 2016 and guided you on how to make an undubbed version of your own </em><em>Persona 4 GOLDEN</em><em> game, covering both the </em><em>physical</em><em> and </em><em>digital</em><em> versions. The steps were written so that you could also learn how to mod other games.</em></p>
+<h2 id="installing-henkaku">Installing Henkaku<a class="headerlink" href="#installing-henkaku" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Make sure your Vita is on firmware version 3.60.</li>
+<li>Go to henkaku.xyz on your Vita.</li>
+<li>A popup will appear, touch the "Ok" button and wait for the browser to close.</li>
+</ul>
+<p><em>If the browser crashes, try deleting cookies, rebooting and rebuilding the database.</em></p>
+<p>If you've done everything correctly, there should now be a molecularShell bubble on your Vita menu. You can use it to access your files, install .vpk homebrew and host a FTP server on your Vita.</p>
+<h2 id="installing-vitashell">Installing VitaShell<a class="headerlink" href="#installing-vitashell" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/TheOfficialFloW/VitaShell/releases/latest">Download the latest VitaShell (.vpk file)</a></p>
+</li>
+<li>
+<p>Open your PS Vita settings, go to "Henkaku Settings", and check "Enable Unsafe Homebrew"</p>
+</li>
+<li>
+<p>Open molecularShell and press Select to start the FTP server. Make sure your Wi-Fi is turned on.</p>
+</li>
+<li>
+<p>Open your favorite FTP client on your computer and connect to your Vita.</p>
+</li>
+</ul>
+<p>Recommended settings for Filezilla:</p>
+<p><img alt="File -&gt; Site Manager" src="https://i.imgur.com/lOwhLtM.png" />
+<img alt="Edit -&gt; Settings -&gt; Filetypes" src="https://i.imgur.com/066Ow9N.png" /></p>
+<ul>
+<li>
+<p>Copy <code>VitaShell.vpk</code> to <code>ux0:</code></p>
+</li>
+<li>
+<p>Press <code>Circle</code> to close the FTP connection.</p>
+</li>
+<li>
+<p>Go to <code>ux0:</code>, press <code>X</code> on <code>VitaShell.vpk</code> and press <code>X</code> again to install it.</p>
+</li>
+</ul>
+<p>You can now use VitaShell instead of molecularShell.</p>
+<h2 id="dumping-your-game">Dumping your game<a class="headerlink" href="#dumping-your-game" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><code>PCSE00120</code> is the TITLEID for the <strong>American</strong> version of Persona 4 GOLDEN.</p>
+<p><code>PCSB00245</code> is the TITLEID for the <strong>European</strong> version of Persona 4 GOLDEN.</p>
+</blockquote>
+<p>For this, we need to get the game's files while they are decrypted by the Vita.
+To do this, we use VitaShell's PFS Decryption features.</p>
+<ul>
+<li>Open VitaShell on your Vita.</li>
+<li>Go to <code>ux0:app/</code> and highlight the game's TITLEID folder using the directional keys. <strong>(Use <code>gro0</code> instead of <code>ux0</code> if you're dumping a physical game.)</strong>. Press <code>Triangle</code>, go to <code>More</code> and then <code>Open Decrypted</code>.</li>
+</ul>
+<p>You can now use FTP to access <code>ux0:app/[TITLEID]</code>, where your decrypted game files will be present. Use any FTP client you like on your PC to dump the game files to a safe location. <strong>(Again, make sure to use <code>gro0</code> instead of <code>ux0</code> if you're dumping a physical game.)</strong></p>
+<p><em>For any game, you can also access the following locations with the <code>Open Decrypted</code> functionality:</em>
+* <code>ux0:patch/[TITLEID]</code> - (Game Update)
+* <code>ux0:addcont:[TITLEID]/</code> - (DLC Content)
+* <code>ux0:user/00/savedata/[TITLEID]</code> - (Save)</p>
+<p>If you want to manually extract, modify and repack the game files, you can skip to the <a href="https://github.com/s1cp/VitaGuide/wiki/Home/_edit#manual-method">"Manual Methos"</a> section.</p>
+<h2 id="patch-method">Patch Method<a class="headerlink" href="#patch-method" title="Permanent link">&para;</a></h2>
+<p>This method is way simpler and makes use of an Xdelta patch. You just need to get your <code>data.cpk</code>, the patch, then open xdeltaUI, go to "Apply patch", select the correct files and it's done. MD5 hash included in README.txt.</p>
+<p>You now have the undubbed <code>data.cpk</code> with just a few clicks.</p>
+<blockquote>
+<p>Your own repacked <code>data.cpk</code> will <em>probably</em> have a different md5 checksum than the patched one because the <code>.cpk</code> holds data about how it was built, and any variation on that would change the hash. If you use the .xdelta patch, check the md5 hashes on this section.</p>
+</blockquote>
+<h3 id="american-version">American version<a class="headerlink" href="#american-version" title="Permanent link">&para;</a></h3>
+<p><strong>Latest 2.0 Patch (753,6 MiB) (Compressed, battle voices fixed)</strong>
+Magnet link: magnet:?xt=urn:btih:0f5b5b174fe91f59552ccfdc645b5f74c72665cc&amp;dn=Persona%204%20GOLDEN%20Undub%20Patch%202.0</p>
+<p><em>The final <strong>American</strong> patched data.cpk file should have the following md5 checksum:</em> <code>59a8b4c32ddfdb238f546120b6c494c3</code></p>
+<h3 id="european-version">European version<a class="headerlink" href="#european-version" title="Permanent link">&para;</a></h3>
+<p>You can convert the American patch to the European patch easily by using another patch.</p>
+<p><a href="https://u.pomf.is/svjqmn.xdelta">Download this .xdelta file.</a></p>
+<p>Patch the American Version patch previously mentioned (.xdelta file) with this patch.</p>
+<p>It will generate a new .xdelta file. This will be the patch for your European data.cpk file.</p>
+<p><em>The final <strong>European</strong> patched data.cpk file should have the following md5 checksum:</em> <code>d889e16b842e69ec2b7cd5a19f3e3fc0</code></p>
+<p>After patching your <code>data.cpk</code> file, skip to the <a href="https://github.com/s1cp/VitaGuide/wiki/Home/_edit#copying-back">"Copying Back"</a> section.</p>
+<h2 id="manual-method">Manual method<a class="headerlink" href="#manual-method" title="Permanent link">&para;</a></h2>
+<h3 id="unpacking-the-files">Unpacking the files<a class="headerlink" href="#unpacking-the-files" title="Permanent link">&para;</a></h3>
+<p><a href="https://u.pomf.is/pewhqk.zip">Download these tools first.</a></p>
+<p>After you've got your decrypted game files, store them in a safe place. Try not to change the original files and make a copy of what you are modding to keep things organized and to avoid copying the game's files again. Keep the folder structure intact because we'll need that later to patch the game.</p>
+<p>Make 2 folders for your .cpk extraction, one for the English version and another for the Japanese version. You can find a Japanese dump at the Amicitia forum.</p>
+<p>Extract <code>cpk_unpack.zip</code>, open the Windows CMD on the extracted folder, and type:
+<code>cpk_unpack "Location of your data.cpk"</code></p>
+<p>Example:
+<code>cpk_unpack C:\Users\User\Documents\PCSE00120\data\data.cpk</code></p>
+<p>The program will extract the .cpk's contents in a folder inside its own directory.</p>
+<p>Do the same for the Japanese version.</p>
+<p>Store the extracted contents in a separate folder. In our case, we could use something like <code>extracted_us</code> and <code>extracted_jp</code>.</p>
+<blockquote>
+<p>If you're working with an European version of the game, use <code>extracted_eu</code> to clear up some confusion.</p>
+</blockquote>
+<h3 id="replacing-the-files">Replacing the files<a class="headerlink" href="#replacing-the-files" title="Permanent link">&para;</a></h3>
+<p>Now, create a new folder. This folder will be the one where we will replace the sound files from the American/European version with the ones from the Japanese version of the game. We will be calling it <code>extracted_undub</code></p>
+<ul>
+<li>Copy all the contents from the <code>extracted_us</code> (or <code>extracted_eu</code>) folder to <code>extracted_undub</code>. That will be our "base" game.</li>
+<li>Copy the <code>sound</code> folder from <code>extracted_jp</code> to <code>extracted_undub</code> and merge/replace all the files.</li>
+<li>Copy the <code>model\pack</code> folder from <code>extracted_jp</code> to <code>extracted_undub\model</code> and merge/replace all the files. This will fix some battle voices still being in English.</li>
+</ul>
+<h3 id="repacking-the-files">Repacking the files<a class="headerlink" href="#repacking-the-files" title="Permanent link">&para;</a></h3>
+<h4 id="uncompressed-method">Uncompressed method<a class="headerlink" href="#uncompressed-method" title="Permanent link">&para;</a></h4>
+<p>This method repackages the files <em>uncompressed</em>, taking almost 3gb of space. I decided to keep it because it uses a GUI and is more user friendly.</p>
+<p>For the <em>compressed</em> method, go to the next section.</p>
+<ul>
+<li>
+<p>Extract the CriPackedFileMaker.zip file included in the "tools" download provided before.</p>
+</li>
+<li>
+<p>Run CriPackedFileMaker.exe</p>
+</li>
+<li>
+<p>Change the base directory by clicking on the folder icon on the top, and sekect the <code>extracted_undub</code> folder.</p>
+</li>
+<li>
+<p>If all the files are there, you can click the "Build CPK file..." button.</p>
+</li>
+<li>
+<p>Leave everything just like the following picture:</p>
+</li>
+</ul>
+<p><img alt="Correct settings" src="https://u.pomf.is/rchrpx.png" /></p>
+<ul>
+<li>
+<p>Click "Start to Build"</p>
+</li>
+<li>
+<p>After it has finished packing the files, open CriPackedFileMaker.exe again.</p>
+</li>
+<li>
+<p>Click on the top right button that says "Open a CPK file" and select your newly packed data.cpk.</p>
+</li>
+<li>
+<p>Verify if it shows info similar to the following ones:</p>
+</li>
+</ul>
+<p><img alt="Info" src="https://u.pomf.is/fjixzx.png" /></p>
+<ul>
+<li>If everything seems correct, we can now put the file back on the Vita.</li>
+</ul>
+<h4 id="compressed-method">Compressed method<a class="headerlink" href="#compressed-method" title="Permanent link">&para;</a></h4>
+<p>This method repackages the files <em>compressed</em>, taking almost half the space the file from the uncompressed method takes.</p>
+<ul>
+<li>
+<p>Extract the CriPackedFileMaker.zip file included in the "tools" download provided before.</p>
+</li>
+<li>
+<p>Copy <code>cpkmakec.exe</code> and <code>CpkMaker.DLL</code> to the <code>extracted_undub</code> folder.</p>
+</li>
+<li>
+<p><a href="https://u.pomf.is/wbotyk.csv">Download this .csv file.</a>. Rename it to <code>data.csv</code> put it inside the <code>extracted_undub</code> folder.</p>
+</li>
+<li>
+<p>Hold CTRL+SHIFT and right click on an empty space inside the folder. Click "Open Command Window Here". Or just <code>cd</code> into the <code>extracted_undub</code> folder using CMD.</p>
+</li>
+<li>
+<p>Type the following into CMD. The program will now repack all your files into a <code>data.cpk</code> file inside the <code>extracted_undub</code> folder:</p>
+</li>
+</ul>
+<p><code>cpkmakec data.csv data.cpk -align=2048 -mode=FILENAME -code=UTF-8</code></p>
+<ul>
+<li>
+<p>After it has finished packing the files, open <code>CriPackedFileMaker.exe</code>.</p>
+</li>
+<li>
+<p>Click on the top right button that says "Open a CPK file" and select your newly packed <code>data.cpk</code>.</p>
+</li>
+<li>
+<p>Verify if it shows info similar to the following ones:</p>
+</li>
+</ul>
+<p><img alt="Info" src="https://u.pomf.is/jqadyd.png" /></p>
+<ul>
+<li>If everything seems correct, we can now put the file back on the Vita.</li>
+</ul>
+<h2 id="copying-back">Copying back<a class="headerlink" href="#copying-back" title="Permanent link">&para;</a></h2>
+<p>To mod Vita games we can't just replace the files in <code>ux0:app/[TITLEID]</code>, we need to put the modified files in <code>ux0:/patch</code>.</p>
+<p>Persona 4 GOLDEN uses a single .cpk file for all its contents besides the manual and videos, so we need to copy the entire data.cpk we just created to our Vita. This makes the game take up twice the original space, but we have a workaround. We can just use an empty file named <code>data.cpk</code> to replace the one located in <code>ux0:app/[TITLEID]</code>. It will only look for the one in the <code>patch</code> folder.</p>
+<p><strong>Make sure</strong> you have a <code>param.sfo</code> file inside the <code>sce_sys</code> folder at <code>ux0:patch/[TITLEID]/sce_sys</code> or else the game won't boot. You can use the one from molecularShell located at <code>ux0:app/MLCL00001</code>if you're modding the digital version.</p>
+<p>If you're modding the <strong>physical</strong> version of the game, we can't use molecularShell's <code>param.sfo</code>, you have to get the <code>param.sfo</code> file from your <strong>decrypted</strong> game dump we did before.</p>
+<p>Open the <code>param.sfo</code> file using <a href="https://sites.google.com/site/theleecherman/sfoeditor">this program</a> and change the <code>APP_VER</code> parameter of your game file and put something higher, like 1.01.</p>
+<p>After doing this, put the edited <code>param.sfo</code> file in <code>ux0:patch/[TITLEID]/sce_sys</code>.</p>
+<p><code>ux0:/patch/PCSE00120/sce_sys</code> for the <strong>American</strong> version of Persona 4 GOLDEN.</p>
+<p><code>ux0:/patch/PCSB00245/sce_sys</code> for the <strong>European</strong> version of Persona 4 GOLDEN.</p>
+<blockquote>
+<p>We put the <strong>modified</strong> files in <code>ux0:patch/[TITLEID]</code> regardless if we're using a physical or digital game.</p>
+</blockquote>
+<p>And last but not least, put the new <code>data.cpk</code> created from the files of <code>extracted_undub</code> inside <code>ux0:/patch/[TITLEID]/data</code></p>
+<h2 id="cutscenes">Cutscenes<a class="headerlink" href="#cutscenes" title="Permanent link">&para;</a></h2>
+<p>The Persona 4 GOLDEN cutscenes aren't stored inside the <code>data.cpk</code> file, so it's easier for us to modify them. You just have to put your properly encoded video files inside <code>ux0:patch\[TITLEID]\data\movie</code> and rename them accordingly.</p>
+<p>If you also want the cutscenes to be in Japanese, you can download the subbed videos using the following link:</p>
+<h3 id="subbed-japanese-cutscenes">Subbed Japanese Cutscenes<a class="headerlink" href="#subbed-japanese-cutscenes" title="Permanent link">&para;</a></h3>
+<p>Magnet link: magnet:?xt=urn:btih:a8fed57850eec56940566454f63ca524180cdfb3&amp;dn=Persona%204%20GOLDEN%20Cutscene%20Undub</p>
+<p>I have also included some files used in the subbing process inside the <code>Misc</code> folder.</p>
+<h2 id="done">Done<a class="headerlink" href="#done" title="Permanent link">&para;</a></h2>
+<p>The game should now boot and you can now play Persona 4 GOLDEN with Japanese voices.</p>
+<p>You can try experimenting with the .mp4 files from the dumped game. It's possible to sub them and convert them back. You just have to use the same encoding options and put the file in the same structure as the game folder inside <code>app</code>, but inside the <code>patch</code> folder.</p>
+<h2 id="help">Help<a class="headerlink" href="#help" title="Permanent link">&para;</a></h2>
+<p>If you have any questions, feel free to create a new issue on GitHub.</p>
+<h2 id="credits">Credits<a class="headerlink" href="#credits" title="Permanent link">&para;</a></h2>
+<p>Thanks to:</p>
+<ul>
+<li>
+<p>The Henkaku devs (@Yifanlu and others) for creating Henkaku and giving birth to the Vita homebrew scene.</p>
+</li>
+<li>
+<p>theflow0 for creating VitaShell and many other useful tools.</p>
+</li>
+<li>
+<p>@RyanShrinefox (for the tools used for data.cpk extraction, tips on compression and battle voices).</p>
+</li>
+<li>
+<p>@regularpanties (for providing the Japanese rip).</p>
+</li>
+<li>
+<p>Mr. Gas and Major Tom for the old PFS decryption process.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.sections", "navigation.tracking", "toc.integrate", "navigation.top"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
